@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 1280px;
+  background-image: url('./assests/bkg.png');
+  margin: auto;
+}
+.navbar-container {
+  height: 113px;
+  margin: auto;
+  background-color: blue;
+}
+.navbar {
+  background-color: crimson;
+  width: 960px;
+  margin: auto;
+  height: 100%;
+  transform: translate(10px);
+}
+.brand {
+  height: 100%;
+  width: 518px;
+}
+.brand::before {
+  display: inline-block;
+  content: '';
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+.brand-logo {
+  background-image: url(./assests/logo.png);
+  vertical-align: middle;
+  height: 77px;
+  display: inline-block;
+  width: 265px;
+  background-color: cornsilk;
+}
+.brand-text {
+  color: #023e78;
+  padding-left: 12px;
+  padding-top: 9px;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 0.057em;
+  word-spacing: -1px;
+  font-family: 'perpetua';
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+}
+.nav-lists {
+  display: inline-block;
+}
+.nav-lists li {
+  /* display: inline-block; */
+}
