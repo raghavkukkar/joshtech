@@ -422,6 +422,17 @@ span .smaller {
   background-size: contain;
   margin-right: 12px;
 }
+.sub-video::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.sub-video img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 35px;
+}
 .sub-desc {
   font-size: 10px;
   display: inline-block;
